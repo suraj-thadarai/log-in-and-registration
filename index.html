@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div
+        class="register-container flex flex-col items-center h-screen p-2 max-w-xl border-2 border-solid border-black gap-4 mx-auto">
+        <div class="image-and-h1 flex flex-col items-center gap-2 border-2 border-solid border-green-500 w-3/4">
+            <img src="./upwork.jpg" alt="upwork image" class="h-10">
+            <h1 class="text-2xl">Register</h1>
+        </div>
+        <div class="freelance-and-hire border border-solid border-red-500 w-3/4">
+            <div class="flex flex-col my-2 gap-2 w-full sm:flex-row md:flex-row">
+                <div class="border border-solid border-black-500 w-full text-center">Freelance</div>
+                <div class="border border-solid border-black-500 w-full text-center">Hire</div>
+            </div>
+        </div>
+        <div class="register-form border border-2 border-blue-500 w-3/4">
+            <form action="" class="w-full">
+                <div class="md:flex md:flex-row gap-2 my-2">
+                    <div class="md:w-full">
+                        <label for="" class="">First Name</label>
+                        <div><input type="text" placeholder="First Name" class="border border-solid border-gray-600 w-full">
+                        </div>
+                    </div>
+                    <div class="md:w-full">
+                        <label for="" class="">Last Name</label>
+                        <div><input type="text" placeholder="Last Name" class="border border-solid border-gray-600 w-full">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my-2">
+                    <div><label for="" class="mb-8">Email Address</label></div>
+                    <div><input type="text" placeholder="Email Address" class="border border-solid border-gray-600 w-full">
+                    </div>
+                </div>
+                <div>
+                    <div><label for="" class="mb-8">Password</label></div>
+                    <div><input type="text" placeholder="Password" class="border border-solid border-gray-600 w-full"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
